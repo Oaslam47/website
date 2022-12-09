@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+    	<meta charset= "UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+		<title> My website</title>
+		<link href = "style.css" rel = "stylesheet">
+	</head>
+    <body>
+		<header>
+			<h1> Omer </h1>
+		</header>
+    		<nav>
+    			<ul class = "links">
+       				<li><a href = "#Profile">Profile</a></li>
+    				<li><a href = "#Skills">Skills</a></li>
+    				<li><a href = "#Experience">Experience</a></li>
+    				<li><a href = "#Contact">Contact</a></li>
+    			</ul>
+    		</nav>
+    		<main>
+    			<h2 id = "Profile">Profile</h2>
+    				<p class = "box">A passionate programmer who loves to problem solve and create applications.</p>
+    			<h2 id = "Skills">Skills</h2>
+    				<img src = "html.png" alt = "HTML">
+     				<img src = "css.png"  alt =  "CSS">
+      				<img src = "js.png"   alt = "JavaScript">
+    			<h2 id = "Experience">Experience</h2>
+    				<p>Click on the link to view applications I've created.<br><a href = "https://github.com/Oaslam47/website/tree/main"> Github account</a></p>
+		<h2 id = "Contact">Contact</h2>
+		<form method = "post"  action = "form.php">
+		<label for = "fname"> Full Name:</label><br>
+			<input type = "text" id = "fname" name = "fname" value="" required>  <br>
+
+			<label for = "email"> Email:</label><br>
+			<input type = "email" id = "email" name ="email" required><br>
+
+			<label for = "msg"> Your Message</label><br>
+			<textarea name = "msg" id = "msg" placeholder = "Type your message" required></textarea><br>
+
+			<input type = "submit" name ="submit" value = "Send Message">
+
+		</form>
+		</main>
+	</body>
+</html>
